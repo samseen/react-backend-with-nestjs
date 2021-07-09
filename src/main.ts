@@ -6,3 +6,5 @@ async function bootstrap() {
   await app.listen(process.env.PORT || 9000);
 }
 bootstrap();
+
+// Run 'mysql -u root -p' to bring up the db
