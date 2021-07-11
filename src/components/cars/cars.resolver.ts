@@ -9,6 +9,6 @@ export class CarsResolver {
 
     @Query(returns => String)
     public async cars() {
-        return 'Hello and welcome to Yourcar shop!';
+        return "Hello and welcome to Yourcar shop!";
     }
 }

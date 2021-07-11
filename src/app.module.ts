@@ -14,7 +14,7 @@ import { ComponentsModule } from './components/components.module';
     debug: process.env.NODE_ENV === "development" && true || false,
     autoSchemaFile: true,
   }),
-  ComponentsModule
+  ComponentsModule,
 ],
   controllers: [AppController],
   providers: [AppService],
