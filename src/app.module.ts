@@ -10,8 +10,8 @@ import { ComponentsModule } from './components/components.module';
   imports: [ConfigModule.forRoot(), 
     DatabaseModule, 
     GraphQLModule.forRoot({
-    playground: process.env.NODE_ENV === "development" && true || false,
-    debug: process.env.NODE_ENV === "development" && true || false,
+    playground: true,
+    debug: true,
     autoSchemaFile: true,
   }),
   ComponentsModule,
